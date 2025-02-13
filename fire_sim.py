@@ -86,7 +86,7 @@ class Fire:
 
     def move(self):
         """ Управляет движением агента: либо к огню, либо к базе для зарядки."""
-        if self.battery_level < 5:
+        if self.battery_level < 10:
             return self.recharge()
         if self.fires:
             path = self.find_path(

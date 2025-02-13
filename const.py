@@ -1,0 +1,14 @@
+SCREEN_SIZE = 500
+GRID = 10
+CELL_SIZE = SCREEN_SIZE // GRID
+
+GRAY = (169, 169, 169)
+BLACK = (0, 0, 0)
+GREEN = (132, 184, 56)
+BLUE = (0, 0, 255)
+RED = (255, 0, 0)
+WHITE = (255, 255, 255)
+
+#OBSTACLES_COORDS = [(2, 2), (2, 8), (4, 3), (4, 7), (6, 2)]
+BASE = (0, 9)
+#FIRE_COORDS = (1, 0)
